@@ -1,0 +1,109 @@
+/* เพิ่ม CSS สำหรับหน้ารายละเอียดสินค้า */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.original-header {
+    background-color: #333; /* เปลี่ยนสีพื้นหลังตามที่คุณต้องการ */
+    color: #fff; /* เปลี่ยนสีตัวอักษรตามที่คุณต้องการ */
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* แถบเมนูนำทาง (Navigation Bar) */
+.original-nav {
+    background-color: #333; /* เปลี่ยนสีพื้นหลังตามที่คุณต้องการ */
+    padding: 10px;
+    text-align: center;
+}
+
+.original-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.original-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.original-nav a {
+    text-decoration: none;
+    color: #000000; /* เปลี่ยนสีข้อความตามที่คุณต้องการ */
+    font-weight: bold;
+}
+ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+
+.product-details {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-details h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-carousel {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.product-carousel img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-details p {
+    color: #777;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.product-carousel img {
+    width: 200px; /* ปรับขนาดตามที่คุณต้องการ */
+    height: 200px; /* ปรับขนาดตามที่คุณต้องการ */
+    object-fit: cover; /* ใช้ object-fit เพื่อปรับภาพให้มีขนาดเท่ากันโดยไม่ทำให้ภาพเบี้ยว */
+}

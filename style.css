@@ -1,0 +1,63 @@
+/* style.css */
+
+.original-header {
+    background-color: #333; /* เปลี่ยนสีพื้นหลังตามที่คุณต้องการ */
+    color: #fff; /* เปลี่ยนสีตัวอักษรตามที่คุณต้องการ */
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* แถบเมนูนำทาง (Navigation Bar) */
+.original-nav {
+    background-color: #333; /* เปลี่ยนสีพื้นหลังตามที่คุณต้องการ */
+    padding: 10px;
+    text-align: center;
+}
+
+.original-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.original-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.original-nav a {
+    text-decoration: none;
+    color: #110f0f; /* เปลี่ยนสีข้อความตามที่คุณต้องการ */
+    font-weight: bold;
+}
+
+/* สินค้าแนะนำ */
+/* สินค้าแนะนำ */
+ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* รูปภาพสินค้า */
+ul li img {
+    max-width: 30%; /* ขนาดรูปภาพจะไม่เกินขอบของคอลัมน์ */
+    height: auto; /* คงสัดส่วนของรูปภาพ */
+}
+
+
+/* เซอร์วิส */
+.services {
+    margin-top: 20px;
+}
+
+/* ฟุตเตอร์ */
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
